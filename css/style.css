@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+}
+/* thiết lập css cho phần header */
+header {
+    height: 56.5px;
+    width: 100%;
+    background-color: #342C3A;
+    position: fixed !important;
+}
+.logo {
+    display: inline-block;
+    font-size: 35px;
+    color: aliceblue;
+    margin-left: 77px;
+    border: 1px solid;
+    margin-top: 3px;
+    padding: 0 65px;
+    line-height: 48.5px;
+}
+ul.nav {
+    display: inline-block;
+    float: right;
+}
+ul.nav li {
+    display: inline-block;
+    line-height: 54.5px;
+    padding: 0 30px;
+}
+ul.nav li:hover {
+    background-color: #ccc;
+}
+ul.nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Shizuru", system-ui;
+    font-size: 16px;
+}
+ul.nav li:hover a {
+    color: #000;
+}
+/* thiết lập css cho phần slide */
+#slider {
+    /* position: relative; */
+    /* margin-top: 48px; */
+    padding-top: 50%;
+    background: url('/img/anh-chill-buon-yodyvn.jpg') top center / cover no-repeat;
+}
+#slider .nav-clock {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    color: white;
+}
+.nav-clock .clock {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+/* thiết lập css cho phần slogan */
+#slogan {
+    height: 500px;
+    background-color: #e64d61;
+    padding: 50px 120px;
+}
+#slogan #My {
+    display: block;
+    width: 700px;
+    height: 400px;
+    background-color: aliceblue;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 64px;
+    border: 4px solid #5b4040;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-10px); }
+    50% { transform: translateX(10px); }
+    75% { transform: translateX(-10px); }
+    100% { transform: translateX(0); }
+}
+.img img {
+    width: 200px; /* điều chỉnh kích thước ảnh */
+    height: 200px; /* điều chỉnh kích thước ảnh */
+    border-radius: 50%; /* bo tròn ảnh */
+    object-fit: cover; /* cắt ảnh để vừa với khung tròn */
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.img img:hover {
+    animation: shake 0.5s ease-in-out;
+}
+#My .note {
+    font-style: italic;
+    opacity: 0.6;
+    font-weight: 600;
+    font-size: 15px;
+}
+#My .ND {
+    margin-top: 10px;
+}
+
+/* thiết lập css cho phần thông tin cá nhân */
+#personal-infor-brief {
+    height: 500px;
+    background-color: #082941e0;
+}
+#personal-infor-brief ul li {
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    background-color: bisque;
+    border-radius: 50px;
+    margin: 0 20px;
+}
+
